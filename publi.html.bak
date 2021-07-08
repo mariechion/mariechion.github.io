@@ -424,7 +424,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
   <body style="                                                                                                         margin-left:300px"
     class="article"><span>
     </span>
-    <div class="wrapper"> <!-- Sidebar -->
+    <div class="wrapper">
+      <!-- Sidebar -->
       <nav id="sidebar">
         <div class="sidebar-header"></div>
         <ul>
@@ -455,14 +456,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
             +33 (0)3 68 85 28 12 </p>
           <p align="center"><span> <a href="https://www.researchgate.net/profile/Marie_Chion?cp=shp"><img
                   src="Pictures/researchgate.png"
-                  width="30"
-                  hspace="5"></a></span><span>
+                  hspace="5"
+                  width="30"></a></span><span>
               <a href="https://www.linkedin.com/in/marie-chion/"><img src="Pictures/linkedin.png"
-                  width="30"
-                  hspace="5"></a><span>
+                  hspace="5"
+                  width="30"></a><span>
                 <a href="https://github.com/mariechion"><img src="Pictures/github.png"
-                    width="30"
-                    hspace="5"></a></span><a
+                    hspace="5"
+                    width="30"></a></span><a
                 href="https://github.com/mariechion">
               </a></span></p>
         </ul>
@@ -470,34 +471,34 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
     </div>
     <div> <span><a href="http://www.cnrs.fr"><img src="Pictures/logo.svg" alt="CNRS"
             title="Logo CNRS"
-            vspace="5"
-            border="0"
             hspace="25"
-            height="70"></a></span><span>
+            height="70"
+            vspace="5"
+            border="0"></a></span><span>
       </span><span><a href="http://www.unistra.fr"><img src="Pictures/1200px-Universit%C3%A9_de_Strasbourg.svg.png"
             alt="Logo UDS"
             style="width: 178px; height: 67px;"
+            hspace="25"
             vspace="5"
-            border="0"
-            hspace="25"></a></span><span>
+            border="0"></a></span><span>
         <span><a href="http://irma.math.unistra.fr/"><img src="Pictures/logoIRMA.gif"
               alt="Logo IRMA"
-              vspace="5"
-              border="0"
               hspace="25"
-              height="70"></a></span><span>
+              height="70"
+              vspace="5"
+              border="0"></a></span><span>
         </span><span><a href="http://www.iphc.cnrs.fr/"><img src="Pictures/logo_IPHC.png"
               alt="Logo IPHC"
               style="width: 114px; height: 92px;"
+              hspace="25"
               vspace="5"
-              border="0"
-              hspace="25"></a></span><span>
+              border="0"></a></span><span>
         </span><span><a href="http://labex-irmia.u-strasbg.fr/"><img src="Pictures/irmia.png"
               alt="Logo IRMIA"
               style="width: 149px; height: 67px;"
+              hspace="25"
               vspace="5"
-              border="0"
-              hspace="25">&nbsp;</a></span>
+              border="0">&nbsp;</a></span>
       </span></div>
     <hr> <span> </span>
     <ul style="list-style-type: none; margin: 10; padding: 0; overflow: hidden; background-color: #FFFFFF;font-size:110%;font-weight: bold;">
@@ -603,5 +604,6 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
             MaDICS – 26 au 28 juin 2019 – Rennes, France</i>.</p>
       </div>
     </div>
+    
   </body>
 </html>
