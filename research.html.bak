@@ -5,7 +5,7 @@
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Asciidoctor 1.5.6.2">
-    <title>Marie Chion - Publications</title>
+    <title>Marie Chion - Research</title>
     <meta property="og:image" content="http://irma.math.unistra.fr/plugins/kitcnrs/images/logoIRMA.gif">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
     <style>
@@ -421,12 +421,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
     transition: all 0.3s;
 }
 </style> </head>
-  <body style="                        margin-left:300px" class="article"><span>
+  <body style="                                                                                                                                                      margin-left:300px"
+    class="article"><span>
     </span>
     <div class="wrapper">
       <!-- Sidebar -->
       <nav id="sidebar">
-        <div class="sidebar-header"></div>
+        <div class="sidebar-header"> </div>
         <ul>
           <a href="index_EN.html"><img src="Pictures/photoMC.jpg" style="width: 147px; height: 184px;"
               hspace="45"></a>
@@ -482,7 +483,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
     <ul style="list-style-type: none; margin: 10; padding: 0; overflow: hidden; background-color: #FFFFFF;font-size:110%;font-weight: bold;">
       <li style="text-align: center;"><span style="font-family: Arial;"><span><span><span><a
                   style="float: left; display: block; color: #8e0303; text-align: center; padding: 14px 16px; text-decoration: none;"
-                  href="./index.html">Home</a></span></span></span></span></li>
+                  href="./index_EN.html">Home</a></span></span></span></span></li>
       <span style="font-family: Arial;"><span><span><span> </span></span></span></span>
       <li style="text-align: center;"><span style="font-family: Arial;"><span><span><span><a
                   style="float: left; display: block; color: #8e0303; text-align: center; padding: 14px 16px; text-decoration: none;"
@@ -502,93 +503,45 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
                   involvement</a></span></span></span></span></li>
     </ul>
     <div class="sect2">
-      <h3 style="text-align: justify;"><span style="color:#8e0303;font-size:90%">Articles</span></h3>
+      <h3><span style="color:#8e0303;font-size:90%">Research</span></h3>
       <div class="paragraph">
-        <p style="font-size:90%"><b><a href="https://doi.org/10.1002/pmic.202000214"
-              style="color:#8e0303;">[3]</a></b>
-          Bons, J., Husson, G., Chion, M., Bonnet, M., Maumy‐Bertrand, M.,
-          Delalande, F., Cianférani, S., Bertrand, F., Picard, B. &amp;
-          Carapito, C. (2021) <br>
-          Combining label‐free and label‐based accurate quantifications with
-          SWATH‐MS: comparison with SRM and PRM for the evaluation of <br>
-          bovine muscle type effects. <i>Proteomics</i>. </p>
-        <p style="font-size:90%"><b><a href="https://hal.archives-ouvertes.fr/hal-02114552"
-              style="color:#8e0303;">[2]</a></b>
-          Quibel, L., Helluy, P., Chion, M. &amp; Ricka, P. (2019) Mélanger des
-          gaz raides pour créer de nouvelles lois d’état. <i>hal-02114552</i>.
+        <p style="text-align: justify;">Since october 2021, I have been a
+          postdoctoral researcher at the <a href="https://u-paris.fr/" style="color:#3b0000;">University
+            of Paris</a>, in the <a href="https://map5.mi.parisdescartes.fr/presentation/thematiques-scientifiques/statistique/"
+            style="color:#3b0000;">Statistics
+            </a> team <br>
+          of the <a href="https://map5.mi.parisdescartes.fr" style="color:#403333;">MAP5</a>
+          lab. I am currently working under the supervision of <a href="https://helios2.mi.parisdescartes.fr/%7Eobouaziz/"
+            style="color:#3b0000;">Olivier
+            Bouaziz</a> on a project funded by <br>
+          the French National League Against Cancer on the detection
+          of gene-environment interactions in cancer <br>
+          studies. More information about the project can be found <a href="https://helios2.mi.parisdescartes.fr/%7Eobouaziz/LNCC.html"
+            style="color:#403333;">here</a>.</p>
+        <p style="text-align: justify;">Prior to that position, I was a PhD
+          student in applied mathematics in the <a href="https://irma.math.unistra.fr/rubrique162.html"
+            style="color:#3b0000;">
+            Modelisation and Control</a> team <br>
+          of the <a href="http://irma.math.unistra.fr/" style="color:#3b0000;">Institute
+            of Advanced Mathematical Research (IRMA)</a> and in the <a href="http://www.iphc.cnrs.fr/-Spectrometrie-de-Masse-BioOrganique-LSMBO-"
+            style="color:#3b0000;">
+            BioOrganic Mass Spectrometry <br>
+            Laboratory (LSMBO)</a> of the <a href="http://www.iphc.cnrs.fr/" style="color:#3b0000;">
+            Hubert Curien Pluridisciplinary Institute (IPHC)</a>.<br>
+          My thesis work was supervised by <a href="https://fbertran.github.io/homepage/index.html"
+            style="color:#3b0000;">
+            Frédéric Bertrand</a> and <a href="mailto:ccarapito@unistra.fr" style="color:#3b0000;">
+            Christine Carapito</a> and funded by the LabEx <a href="http://labex-irmia.u-strasbg.fr/"
+            style="color:#3b0000;">IRMIA</a>
+          <br>
+          (Institute of Research in Mathematics, Applications and Interactions).
         </p>
-        <p style="font-size:90%"><b><a href="https://www.nature.com/articles/s41598-018-26600-4"
-              style="color:#8e0303;">[1]</a></b>
-          Muller, L., Fornecker, L., Chion, M., Van Dorsselaer, A., Cianférani,
-          S., Rabilloud, T. &amp; Carapito, C. (2018) Extended investigation of
-          tube-gel <br>
-          sample preparation : a versatile and simple choice for high throughput
-          quantitative proteomics. <i>Scientific Reports</i>. <b>8:8260</b>. </p>
+        <p style="text-align: justify;"> My main research interests are
+          high-dimensional data, missing values, imputation methods, analysis of
+          <br>
+          health and omics data. </p>
       </div>
     </div>
-    <div style="text-align: justify;"><span></span><span></span><span></span></div>
-    <div class="sect2" style="text-align: justify;">
-      <h3><span style="color:#8e0303;font-size:90%">Oral communications</span></h3>
-      <div class="paragraph">
-        <p style="font-size: 90%;">Marie Chion, Joanna Bons, Muriel Bonnet,
-          Myriam Maumy-Bertrand, Christine Carapito &amp; Frédéric Bertrand:
-          Using monotone spline <br>
-          smoothing to combine label-free and label-based accurate
-          quantifications with DIA-MS: application to bovine muscle samples. <br>
-          <i>e-Chimiométrie 2021 – February 2-3, 2021 – Online. </i></p>
-        <p style="font-size: 90%;">Marie Chion: Developing statistical
-          methodologies for quantitative proteomics. <i>Journées du LabEx IRMIA
-            – October 7, 2020 – Strasbourg, France. </i></p>
-        <p style="font-size: 90%;">Marie Chion, Christine Carapito &amp;
-          Frédéric Bertrand : Dealing with imputation-caused variance using
-          moderated t-test. <i> UseR! 2020 – <br>
-            Cancelled due to COVID-19.</i> </p>
-        <p style="font-size: 90%;">Marie Chion, Christine Carapito &amp;
-          Frédéric Bertrand: Développement de nouvelles méthodologies d’analyse
-          de données protéomiques. <br>
-          <i>Journée de rentrée de l’École Doctorale 269 – October 8, 2019 –
-            Strasbourg, France. </i></p>
-        <p style="font-size: 90%;"> Marie Chion, Christine Carapito &amp;
-          Frédéric Bertrand: Imputation multiple et prise en compte de
-          l'incertitude pour les données de <br>
-          protéomique quantitative. <i>51e Journées de Statistique – June 3-7,
-            2019 – Nancy, France</i>. </p>
-      </div>
-    </div>
-    <div style="text-align: justify;"><span></span><span></span><span></span></div>
-    <div class="sect2">
-      <h3 style="text-align: justify;"><span style="color:#8e0303;font-size:90%">Poster
-          communications<br>
-        </span></h3>
-      <div class="paragraph">
-        <p style="font-size: 90%; text-align: justify;"> Marie Chion, Christine
-          Carapito &amp; Frédéric Bertrand : Dealing with imputation-caused
-          variance in label-free quantitative proteomics data. <i><br>
-            May Institute on Computation and statistics for mass spectrometry
-            and proteomics at Northeastern University – April 27 -&nbsp; May 8,
-            2020 – <br>
-            Boston, MA, États-Unis. </i></p>
-        <p style="font-size: 90%; text-align: justify;"> Marie Chion, Christine
-          Carapito &amp; Frédéric Bertrand : Imputation multiple et prise en
-          compte de l'incertitude pour les données de <br>
-          protéomique quantitative. <i>Journées Statistique &amp; Santé –
-            October 10-11, 2019 – Paris, France. </i></p>
-        <p style="font-size: 90%; text-align: justify;"> Marie Chion, Christine
-          Carapito &amp; Frédéric Bertrand : Développement de nouvelles
-          méthodologies d’analyse de données protéomiques. <br>
-          <i>Journée de rentrée de l’École Doctorale 269 – October 8, 2019 –
-            Strasbourg, France. </i></p>
-        <p style="font-size: 90%; text-align: justify;"> Marie Chion, Leslie
-          Muller, Nicolas Pythoud, Frédéric Bertrand et Christine Carapito:
-          Dealing with imputation-caused variance in <br>
-          label-free quantitative proteomics data. <i>SMAP 2019 – September </i><i><i>16-19,</i>
-            2019 – Strasbourg, France.</i> </p>
-        <p style="font-size: 90%; text-align: justify;"> Marie Chion, Christine
-          Carapito &amp; Frédéric Bertrand: Imputation multiple et prise en
-          compte de l'incertitude pour les données de <br>
-          protéomique quantitative. <i>1er Symposium du Groupement de Recherche
-            MaDICS – June 26-28, 2019 – Rennes, France</i>.</p>
-      </div>
-    </div>
+    <span></span><span></span><span></span>
   </body>
 </html>
