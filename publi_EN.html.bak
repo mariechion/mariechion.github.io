@@ -482,7 +482,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
     <ul style="list-style-type: none; margin: 10; padding: 0; overflow: hidden; background-color: #FFFFFF;font-size:110%;font-weight: bold;">
       <li style="text-align: center;"><span style="font-family: Arial;"><span><span><span><a
                   style="float: left; display: block; color: #8e0303; text-align: center; padding: 14px 16px; text-decoration: none;"
-                  href="./index_EN.html">Home</a></span></span></span></span></li>
+                  href="./index.html">Home</a></span></span></span></span></li>
       <span style="font-family: Arial;"><span><span><span> </span></span></span></span>
       <li style="text-align: center;"><span style="font-family: Arial;"><span><span><span><a
                   style="float: left; display: block; color: #8e0303; text-align: center; padding: 14px 16px; text-decoration: none;"
