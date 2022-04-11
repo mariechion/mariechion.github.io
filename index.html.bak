@@ -421,10 +421,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
     transition: all 0.3s;
 }
 </style> </head>
-  <body style="                                                                                                                                                                                                                           margin-left:300px"
+  <body style="                                                                                                                                                                                                                                             margin-left:300px"
     class="article"><span>
     </span>
-    <div class="wrapper"> <!-- Sidebar -->
+    <div class="wrapper">
+      <!-- Sidebar -->
       <nav id="sidebar">
         <div class="sidebar-header"> </div>
         <ul>
@@ -445,14 +446,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
             Bureau 725-C1</p>
           <p align="center"><span> <a href="https://www.researchgate.net/profile/Marie_Chion?cp=shp"><img
                   src="Pictures/researchgate.png"
-                  width="30"
-                  hspace="5"></a></span><span>
+                  hspace="5"
+                  width="30"></a></span><span>
               <a href="https://www.linkedin.com/in/marie-chion/"><img src="Pictures/linkedin.png"
-                  width="30"
-                  hspace="5"></a><span>
+                  hspace="5"
+                  width="30"></a><span>
                 <a href="https://github.com/mariechion"><img src="Pictures/github.png"
-                    width="30"
-                    hspace="5"></a></span><a
+                    hspace="5"
+                    width="30"></a></span><a
                 href="https://github.com/mariechion">
               </a></span></p>
         </ul>
@@ -461,22 +462,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
     <div> <span><a href="http://www.cnrs.fr"><img src="Pictures/logo.svg" alt="CNRS"
             title="Logo CNRS"
             style="width: 180px; height: 70px;"
-            vspace="5"
             border="0"
             hspace="25"
-            height="70"></a></span><span>
+            height="70"
+            vspace="5"></a></span><span>
         <span><a href="https://u-paris.fr/"><img src="Pictures/u-paris.jpg" alt="Logo UP"
               style="width: 200px; height: 70px;"
-              vspace="5"
               border="0"
               hspace="25"
-              height="70"></a></span><span>
+              height="70"
+              vspace="5"></a></span><span>
         </span><span><a href="http://www.iphc.cnrs.fr/"><img src="Pictures/map5.png"
               alt="Logo MAP5"
               style="width: 150px; height: 70px;"
-              vspace="5"
               border="0"
-              hspace="25"></a></span><span>
+              hspace="25"
+              vspace="5"></a></span><span>
         </span></span></div>
     <hr> <span> </span>
     <ul style="list-style-type: none; margin: 10; padding: 0; overflow: hidden; background-color: #FFFFFF;font-size:110%;font-weight: bold;">
@@ -501,43 +502,34 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
                   href="./involvement.html">Personal
                   involvement</a></span></span></span></span></li>
     </ul>
-    <div class="sect2">
+    <div class="sect2" style="width:80%;">
       <h3><span style="color:#8e0303;font-size:90%">About me</span></h3>
       <div class="paragraph">
         <p style="text-align: justify;">Since october 2021, I have been a
-          postdoctoral researcher at the <a href="https://u-paris.fr/" style="color:#3b0000;">University
-            of Paris</a>, in the <a href="https://map5.mi.parisdescartes.fr/presentation/thematiques-scientifiques/statistique/"
+          postdoctoral researcher at the <a href="https://u-paris.fr/" style="color:#3b0000;">Paris
+            Cité University</a>, in the <a href="https://map5.mi.parisdescartes.fr/presentation/thematiques-scientifiques/statistique/"
             style="color:#3b0000;">Statistics
-            </a> team <br>
-          of the <a href="https://map5.mi.parisdescartes.fr" style="color:#403333;">MAP5</a>
+            </a> team of the <a href="https://map5.mi.parisdescartes.fr" style="color:#403333;">MAP5</a>
           laboratory.</p>
         <p style="text-align: justify;">Prior to that position, I was a PhD
           student in applied mathematics at the <a href="https://en.unistra.fr/"
             style="color:#3b0000;">
-            University of Strasbourg</a> in <br>
-          the <a href="http://irma.math.unistra.fr/" style="color:#3b0000;">Institute
+            University of Strasbourg</a> in the <a href="http://irma.math.unistra.fr/"
+            style="color:#3b0000;">Institute
             of Advanced Mathematical Research (IRMA)</a> and in the <a href="http://www.iphc.cnrs.fr/-Spectrometrie-de-Masse-BioOrganique-LSMBO-"
             style="color:#3b0000;">
-            BioOrganic Mass Spectrometry <br>
-            Lab (LSMBO)</a> team of the <a href="http://www.iphc.cnrs.fr/" style="color:#3b0000;">
+            BioOrganic Mass Spectrometry Lab (LSMBO)</a> team of the <a href="http://www.iphc.cnrs.fr/"
+            style="color:#3b0000;">
             Hubert Curien Pluridisciplinary Institute (IPHC)</a>. </p>
         <p style="text-align: justify;"> Besides, I am the current president of
           the <a href="https://www.sfds.asso.fr/fr/jeunes_statisticiens/468-les_jeunes_statisticiens/"
             style="color:#3b0000;">
             Young Statisticians Group</a> of the French Statistical Society <a
             href="https://www.sfds.asso.fr/"
-            style="color:#3b0000;">(SFdS)</a>,
-          <br>
-          as well as the current president of the <a href="http://cjsfeap.free.fr/index.html"
-            style="color:#3b0000;">Youth
-            Club</a> of the French Proteomics Society <a href="https://www.sfeap.fr/"
-            style="color:#3b0000;">(FPS)</a>.
-          I also represent <br>
-          France as a core member of the Young Proteomics Investigators Club <a
-            href="https://eupa.org/ypic/"
-            style="color:#3b0000;">(YPIC)</a>
-          and have recently joined the <br>
-          <a href="https://eupa.org/about/executive-committees/communication-conference/"
+            style="color:#3b0000;">(SFdS)</a>.
+          I also represent France as a core member of the Young Proteomics
+          Investigators Club <a href="https://eupa.org/ypic/" style="color:#3b0000;">(YPIC)</a>
+          and have recently joined the <a href="https://eupa.org/about/executive-committees/communication-conference/"
             style="color:#3b0000;">Conference
             &amp; Communication Committee</a> of the European Proteomics
           Association <a href="https://eupa.org/" style="color:#3b0000;">(EuPA)</a>.
@@ -547,43 +539,39 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
     <div class="sect2">
       <h3><span style="color:#8e0303;font-size:90%">Recent and upcoming events</span></h3>
       <ul style="color: #000000">
-        <b style="color:#8e0303"> 9/12/2021 - </b><span style="color:#8e0303">Séminaire
-          "Comment la jeune génération met ses compétences en Statistique <br>
-          au service du Sport ?" - Institut Henri Poincaré, Paris.</span>
+        <b style="color:#8e0303"> <a href="https://jds22.sciencesconf.org/" style="color:#8e0303;">13-17/06/2022</a>
+          - </b><span style="color:#8e0303"> 53èmes Journées de Statistique -
+          Lyon, France</span>
+      </ul>
+      <ul style="color: #000000">
+        <b style="color:#8e0303"> <a href="https://rjs2022.sciencesconf.org/" style="color:#8e0303;">03-07/04/2022</a>
+          - </b><span style="color:#8e0303"> 9èmes Rencontres des Jeunes
+          Statisticiens - Porquerolles, France.</span>
+      </ul>
+      <ul style="color: #000000">
+        <b style="color:#8e0303"> <a href="https://www.proteomic-forum.com/" style="color:#8e0303;">03/04/2022</a>
+          - </b><span style="color:#8e0303"> EuPA Educational Day - Proteomic
+          Forum, Leipzig, Germany.</span>
         <ul>
           <ul>
-            Organisé conjointement avec les groupes Statistique &amp; Sport,
-            Enseignement et <br>
-            Jeunes Statisticien.ne.s de la SfdS. <br>
-            Informations et inscriptions <a href="https://www.sfds.asso.fr/ddoc-8808-6bc538db26a1c76afa6f36fb4c6a4935-2021_1209_seminaire_statistique_et_sport_progr_v1.pdf">ici</a>.
+            Organised by the Young Proteomics Investigators Club.
           </ul>
         </ul>
       </ul>
       <ul style="color: #000000">
-        <b style="color:#8e0303"> 10/12/2021 - </b><span style="color:#8e0303">
-          2nd Meeting for Young Scientists in Proteomics: Data processing and
-          statistical <br>
-          analysis in proteomics - Online.</span>
-        <ul>
-          <ul>
-            Organised by the Youth Club of the French Proteomics Society. <br>
-            Information et registration <a href="http://cjsfeap.free.fr/MYSP2.html">here</a>.
-          </ul>
-        </ul>
-      </ul>
-      <ul style="color: #000000">
-        <b style="color:#8e0303"> 10/02/2022 - </b><span style="color:#8e0303">
-          10th Young Statisticians and Probabilists Meeting - Institut Henri
-          Poincaré, Paris.</span>
+        <b style="color:#8e0303"> <a href="https://www.sfds.asso.fr/fr/jeunes_statisticiens/manifestations/journees_ysp/564-accueil_ysp/"
+            style="color:#8e0303;">10/02/2022</a>
+          - </b><span style="color:#8e0303"> 10th Young Statisticians and
+          Probabilists Meeting - Institut Henri Poincaré, Paris, France.</span>
         <ul>
           <ul>
             Organised by the Young Statisticians Group of the French Statistical
-            Society. <br>
-            More information to come.
+            Society.
           </ul>
         </ul>
       </ul>
     </div>
     <span><span></span></span>
+    
   </body>
 </html>
