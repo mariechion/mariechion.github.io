@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       h1 {color: #005c99; font-family: Brush Script MT; font-size: 200%;}
-      h2 {color: #005c99; }
+      h2 {color: #005c99; font-family: Trebuchet MS;font-size: 100%; }
       h3 {color: #005c99; font-family: Trebuchet MS;}
       
       p {line-height: 150%; font-family: Trebuchet MS;}
@@ -62,6 +62,28 @@
       color: white;
       }
       
+      .subtopnav {
+      background-color: white;
+      overflow: hidden;
+      font-family: Trebuchet MS;
+      }
+
+      /* Style the links inside the navigation bar */
+      .subtopnav a {
+      float: right;
+      color: #005c99;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      border-right: 1px solid darkblue;
+      }
+
+      /* Change the color of links on hover */
+      .subtopnav a:hover {
+      color: darkblue;
+      }
+      
     </style>
   </head>
   
@@ -109,10 +131,17 @@
       <a href="./involvement.html">INVOLVEMENT</a>
       <a href="./thebigc.html">THE BIG C</a>
     </div> 
+    
+    <div class="subtopnav" style="width:75%;">
+      <a href="#publi">Publications</a>
+      <a href="#software">Software</a>
+      <a href="#talks">Talks</a>
+      <a href="#poster">Posters</a>
+    </div> 
 
     <div style="width:75%; text-align: justify;">
       
-      <h3>PUBLICATIONS</h3>
+      <h3 id="publi">PUBLICATIONS</h3>
       <div style="font-size:90%;">
         <p><b><a href="https://arxiv.org/abs/2307.08975"
               style="color:#005c99">[6]</a></b>
@@ -155,7 +184,30 @@
         </p>
       </div>
       
-      <h3>CONTRIBUTED ORAL COMMUNICATIONS</h3>
+      <h3 id="software">SOFTWARE</h3>
+      <div style="font-size:90%;">
+        <p><b>ProteoBayes: Bayesian Statistical Tools for Quantitative 
+        Proteomics</b><br>
+        <a href="https://mariechion.github.io/ProteoBayes/"
+              style="color:#005c99;">Webpage</a> <b>|</b>
+         <a href="https://github.com/mariechion/ProteoBayes"
+              style="color:#005c99;">GitHub</a> <b>|</b>
+        <a href="https://www.nature.com/articles/s41598-018-26600-4"
+              style="color:#005c99;">R package</a> <b>|</b>
+        <a href="https://arthurleroy.shinyapps.io/ProteoBayes/"
+              style="color:#005c99;">Web app</a></p>
+        <p><b>mi4p: Multiple Imputation for Proteomics</b><br>
+        <a href="https://mariechion.github.io/mi4p/"
+              style="color:#005c99;">Webpage</a> <b>|</b>
+         <a href="https://github.com/mariechion/mi4p/"
+              style="color:#005c99;">GitHub</a> <b>|</b>
+        <a href="https://cran.r-project.org/web/packages/mi4p/index.html"
+              style="color:#005c99;">R package</a></p>
+       
+      </div>
+      
+      <h3 id="talks">TALKS</h3>
+      <h2>CONTRIBUTED ORAL COMMUNICATIONS</h2>
       <div style="font-size:90%;">
         <p> Chion, M. &amp; Leroy, A.: ProteoBayes: a Bayesian framework for
         differential proteomics analysis.
@@ -178,7 +230,7 @@
         <i>51e Journées de Statistique – June 3-7, 2019 – Nancy, France</i>.</p>
       </div>
       
-      <h3>INVITED TALKS</h3>
+      <h2>INVITED TALKS</h2>
       <div style="font-size:90%;">
         <p> Chion, M.: Enseigner la statistique aux non-spécialistes: retour
         d'expérience en sciences de la vie et en psychologie. 
@@ -203,7 +255,7 @@
         </ul>
       </div>
         
-      <h3>POSTER COMMUNICATIONS</h3>
+      <h3 id="poster">POSTER COMMUNICATIONS</h3>
       <div style="font-size:90%;">
         <p> Chion, M., Carapito, C. &amp; Bertrand, F.: Dealing with 
         imputation-caused variance in label-free quantitative proteomics data. 
