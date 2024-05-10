@@ -7,22 +7,26 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      h1 {color: #005c99; font-family: Brush Script MT; font-size: 200%;}
-      h2 {font-family: Trebuchet MS;}
-      h3 {color: #005c99; font-family: Trebuchet MS;}
+      h1 {color: #005c99; font-family: "Courier"; font-size: 14pt}
+      h2 {color: #005c99; font-family: "Courier"; font-size: 13pt}
+      h3 {color: #000000; font-family: "Courier"; font-size: 12pt}
       
-      p {line-height: 150%; font-family: "Calibri", sans-serif;}
-      ul {line-height: 150%; font-family: "Calibri", sans-serif;}
+      p {line-height: 150%; font-family: "Courier", sans-serif; 
+        font-size: 11pt;
+      }
+      ul {line-height: 150%; font-family: "Courier", sans-serif;
+        font-size: 11pt;
+      }
+      a {color: #003d66; text-decoration: none; font-size: 11pt;}
       
-      a {color: #003d66; text-decoration: none;}
-      
+  
       #sidebar {
-        width: 260px;
+        width: 300px;
         position: fixed;
-        padding-top: 23px;
+        padding-top: 50px;
         left: 0;
         z-index: 999;
-        background: #ffffff; 
+        background:#fff2e3; 
         color: #000000;
         transition: all 0.3s;
         height: 100%;
@@ -33,7 +37,7 @@
       .topnav {
       background-color: white;
       overflow: hidden;
-      font-family: Trebuchet MS;
+      font-family: Courier;
       }
 
       /* Style the links inside the navigation bar */
@@ -43,7 +47,7 @@
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 15px;
       }
 
       /* Change the color of links on hover */
@@ -58,25 +62,54 @@
       color: white;
       }
       
+      .subtopnav {
+      background-color: white;
+      overflow: hidden;
+      font-family: Trebuchet MS;
+      }
+
+      /* Style the links inside the navigation bar */
+      .subtopnav a {
+      float: right;
+      color: #005c99;
+      text-align: center;
+      padding: 5px 16px;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: Courier;
+      border-right: 1px solid darkblue;
+      }
+
+      /* Change the color of links on hover */
+      .subtopnav a:hover {
+      color: darkblue;
+      }
+      
     </style>
   </head>
 
-  <body style="margin-left:300px">
+  <body style="margin-left:340px; margin-right: 100px;">
     <div> <!-- Sidebar -->
       <nav id="sidebar">
-        <ul>
-          <img src="pictures/ChionMarie.jpg" style="width: 200px;"
-              hspace=10>
-          <h1 align="center">
-            <b>Marie Chion</b>
-          </h1>
-          <p align="center">
-            Research Associate<br>in biostatistics</p>
-          <p align="center" style="font-size:90%"><i>&#128205;MRC Biostatistics Unit <br>
-            University of Cambridge </i></p>
+          <img src="pictures/ChionMarie.jpeg" style="display: block; 
+          margin-left: auto;margin-right: auto; width: 60%;">
+          <p align="center" style="color: #005c99; 
+          font-family: Brush Script MT; font-size: 200%; line-height: 100%;">
+            Marie Chion</p>
+          <p align="center" style = "font-size: 11pt;">
+            Research Associate<br>
+            <i>MRC Biostatistics Unit</i>
+          </p>
+          <p align="center" style = "font-size: 11pt;">
+            Postdoctoral Research Associate <br>
+            <i>Trinity Hall College</i>
+          </p>
+          <p align="center" style = "font-size: 11pt;">
+            &#128205; University of Cambridge
+          </p>
           <p style="line-height: 200%" align="center"
           style="font-size:90%">mc2411[at]cam.ac.uk</p>
-          <p style="line-height: 500%" align="center">
+          <p style="line-height: 400%" align="center">
             <a href="https://github.com/mariechion"><img 
                   src="pictures/github.png"
                   hspace="5"
@@ -85,15 +118,15 @@
                   src="pictures/linkedin.png"
                   hspace="5"
                   width="30"></a>
-            <a href="https://www.researchgate.net/profile/Marie_Chion?cp=shp"><img
+            <a href="https://www.researchgate.net/profile/Marie_Chion?cp=shp">
+              <img
                   src="pictures/researchgate.png"
                   hspace="5"
                   width="30"></a>
             <a href="https://twitter.com/MarieChion"><img 
                   src="pictures/twitter.png"
                   hspace="5"
-                  width="30"></a></p>
-        </ul>
+                  height="30" width="30"></a></p>
       </nav>
     </div>
 
