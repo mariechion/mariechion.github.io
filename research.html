@@ -6,12 +6,15 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      h1 {color: #005c99; font-family: "Courier"; font-size: calc(0.8vw + 0.9vh)}
-      h2 {color: #005c99; font-family: "Courier"; font-size: calc(0.8vw + 0.8vh)}
-      h3 {color: #000000; font-family: "Courier"; font-size: calc(0.8vw + 0.7vh)}
+      h1 {color: #005c99; font-family: "Courier"; 
+      font-size: clamp(4px,calc(0.7vw + 0.9vh),18px)}
+      h2 {color: #005c99; font-family: "Courier"; 
+      font-size: clamp(4px,calc(0.7vw + 0.8vh),16px)}
+      h3 {color: #000000; font-family: "Courier"; 
+      font-size: clamp(4px,calc(0.7vw + 0.7vh),16px)}
       
       p, ul {line-height: 150%; font-family: "Courier", sans-serif; 
-        font-size: calc(0.5vw + 0.9vh);
+        font-size: clamp(2px, calc(0.5vw + 0.9vh), 14px);
       }
       a {color: #003d66; text-decoration: none; font-size: calc(0.5vw + 0.9vh);}
       
@@ -19,7 +22,7 @@
       #sidebar {
         width: 20vw;
         position: fixed;
-        padding-top: 50px;
+        padding-top: 5%;
         left: 0;
         z-index: 999;
         background:#fff2e3; 
