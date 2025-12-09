@@ -14,6 +14,7 @@ body {
 
 /* Typography scale */
 h1 {
+    margin-top: 3vh;
     color: #005c99; 
     font-family: "Source Sans 3"; 
     font-size: clamp(4px,calc(0.7vw + 0.9vh),20px);
@@ -31,16 +32,33 @@ h3 {
     font-size: clamp(4px,calc(0.7vw + 0.7vh),16px);
 } 
 
-p, ul, dd, dt{
+p{
     line-height: 3vh; 
-    margin-bottom: 2vh;
-    margin-top: 2vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-family: "Source Sans 3"; 
+    font-size: clamp(2px, calc(0.5vw + 1vh), 16px);
+}
+
+ul, li{
+    line-height: 3vh; 
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-family: "Source Sans 3"; 
+    font-size: clamp(2px, calc(0.5vw + 1vh), 16px);
+}
+
+dd, dt, dd{
+    line-height: 3vh; 
+    margin-bottom: 1vh;
+    margin-top: 1vh;
     font-family: "Source Sans 3"; 
     font-size: clamp(2px, calc(0.5vw + 1vh), 16px);
 
 }
+
 a {
-    color: #003d66; 
+    color: #c86c10ff; 
     text-decoration: none; 
     font-size: clamp(2px, calc(0.5vw + 1vh), 16px);
 }
@@ -133,7 +151,7 @@ a {
 .subtopnav {
     background-color: white;
     overflow: hidden;
-    margin-right: 15vw;
+    margin-right: 30vw;
     margin-top: 1vh;
 }
 
