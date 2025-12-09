@@ -1,0 +1,150 @@
+
+/* ------------------------
+   GLOBAL BASE STYLES
+--------------------------- */
+
+body {
+  margin-left: 22vw;
+  margin-right: 5vw;
+  font-family: "Source Sans 3";
+  text-align: justify;
+  color: #000000;
+}
+
+/* Typography scale */
+h1 {
+    color: #005c99; 
+    font-family: "Source Sans 3"; 
+    font-size: clamp(4px,calc(0.7vw + 0.9vh),20px);
+}
+
+h2 {
+    color: #005c99; 
+    font-family: "Source Sans 3"; 
+    font-size: clamp(4px,calc(0.7vw + 0.8vh),18px);
+}
+
+h3 {
+    color: #000000; 
+    font-family: "Source Sans 3"; 
+    font-size: clamp(4px,calc(0.7vw + 0.7vh),16px);
+} 
+
+p, ul {
+    line-height: 150%; 
+    font-family: "Source Sans 3"; 
+    font-size: clamp(2px, calc(0.5vw + 1vh), 16px);
+
+}
+a {
+    color: #003d66; 
+    text-decoration: none; 
+    font-size: clamp(2px, calc(0.5vw + 1vh), 16px);
+}
+
+/* ---------------------
+   SIDEBAR
+------------------------ */
+ #sidebar {
+    width: 20vw;
+    position: fixed;
+    padding-top: 5vh;
+    left: 0;
+    z-index: 999;
+    background:#fff2e3; 
+    color: #000000;
+    transition: all 0.3s;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    border-right: 1px solid #e0d4c8;
+    border-top: 1px solid #e0d4c8;
+}
+
+#sidebar img {
+  display: block;
+  margin: auto;
+  width: 55%;
+  border-radius: 10px;
+}
+
+#sidebar p {
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+#sidebar .name {
+  font-family: "Style Script";
+  color: #005c99;
+  font-size: clamp(20px, 2vw + 2.5vh, 40px);
+  text-align: center;
+}
+
+#sidebar .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2vh;
+}
+#sidebar .social-icons img {
+  width: 4vh;
+  height: auto;
+}
+
+/* ---------------------
+   NAVIGATION BAR
+------------------------ */
+/* Style the navigation bar */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    font-family: "Source Sans 3";
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #005c99;
+    text-align: center;
+    padding: 1.25vh 1.25vw;
+    text-decoration: none;
+    font-size: clamp(4px,calc(0.7vw + 0.7vh),18px);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #fff2e3;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #005c99;
+    color: white;
+}
+
+.subtopnav {
+    background-color: white;
+    overflow: hidden;
+    margin-right: 15vw;
+    margin-top: 1vh;
+}
+
+/* Style the links inside the navigation bar */
+.subtopnav a {
+    float: right;
+    color: #005c99;
+    text-align: center;
+    padding: 0.5vh 1.2vw;
+    text-decoration: none;
+    font-size: clamp(4px,calc(0.7vw + 0.7vh),16px);
+    font-family: "Source Sans 3";
+    border-right: 0.1vh solid darkblue;
+}
+
+/* Change the color of links on hover */
+.subtopnav a:hover {
+    color: darkblue;
+}

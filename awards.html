@@ -8,111 +8,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Style+Script|Source+Sans+3" 
     rel="stylesheet">
-
-    <style>
-      h1 {color: #005c99; font-family: "Source Sans 3"; 
-      font-size: clamp(4px,calc(0.7vw + 0.9vh),16px)}
-      h2 {color: #005c99; font-family: "Source Sans 3"; 
-      font-size: clamp(4px,calc(0.7vw + 0.8vh),15px)}
-      h3 {color: #000000; font-family: "Source Sans 3"; 
-      font-size: clamp(4px,calc(0.7vw + 0.7vh),14px)}
-      
-      p, ul {line-height: 150%; font-family: "Source Sans 3"; 
-        font-size: clamp(2px, calc(0.5vw + 1vh), 14px);
-      }
-      a {color: #003d66; text-decoration: none; 
-      font-size: clamp(2px, calc(0.5vw + 1vh), 14px);}
-     
-      #sidebar {
-        width: 18vw;
-        position: fixed;
-        padding-top: 5vh;
-        left: 0;
-        z-index: 999;
-        background:#fff2e3; 
-        color: #000000;
-        transition: all 0.3s;
-        height: 100%;
-        overflow-y: auto;
-        overflow-x: auto;
-      }
-      
-      .topnav {
-      background-color: white;
-      overflow: hidden;
-      font-family: "Source Sans 3";
-      }
-
-      /* Style the links inside the navigation bar */
-      .topnav a {
-      float: left;
-      color: #005c99;
-      text-align: center;
-      padding: 1.25vh 1.25vw;
-      text-decoration: none;
-      font-size: clamp(4px,calc(0.7vw + 0.7vh),16px);
-      }
-
-      /* Change the color of links on hover */
-      .topnav a:hover {
-      background-color: #fff2e3;
-      color: black;
-      }
-
-      /* Add a color to the active/current link */
-      .topnav a.active {
-      background-color: #005c99;
-      color: white;
-      }
-    
-      
-      
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
-
-  <body style="margin-left:21vw; margin-right: 5vw;">
-    <div> <!-- Sidebar -->
+  
+  <body>
+   <div> <!-- Sidebar -->
       <nav id="sidebar">
-          <img src="pictures/ChionMarie.jpeg" 
-          style="display: block;
-          margin-left: auto;
-          margin-right: auto; 
-          width: 55%;">
-          <p align="center" style="color: #005c99; 
-          font-family: Style Script;
-          font-size: clamp(3px, calc(1vw + 2vh), 28px);">
-            Marie Chion</p>
-          <p align="center" style = "font-size: clamp(2px, calc(0.5vw + 1vh), 14px);">
+          <img 
+          src="pictures/ChionMarie.jpeg"
+          alt= "Marie Chion">
+          <p class="name">
+            Marie Chion
+          </p>
+          <p>
             Research Associate<br>
             <i>MRC Biostatistics Unit</i>
           </p>
-          <p align="center" style = "font-size: clamp(2px, calc(0.5vw + 1vh), 14px);">
-            Postdoctoral<br>Research Associate<br>
+          <p>
+            Postdoctoral Research Associate<br>
             <i>Trinity Hall College</i>
           </p>
-          <p align="center" style = "font-size: clamp(2px, calc(0.5vw + 1vh), 14px);">
-            &#128205;University of Cambridge
+          <p>
+            &#128205; University of Cambridge, UK
           </p>
-          <p align="center"
-          style="font-size: clamp(2px,calc(0.5vw + 0.75vh,12px));">mc2411[at]cam.ac.uk</p>
-          <p style="line-height: 400%" align="center">
-            <a href="https://github.com/mariechion"><img 
+          <p class = "email">
+            mc2411[at]cam.ac.uk</p>
+          <p class = "social-icons">
+            <a href="https://github.com/mariechion">
+              <img 
                   src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                  hspace="1%"
-                  width="10%"></a>
-            <a href="https://www.linkedin.com/in/marie-chion/"><img 
+                  alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/marie-chion/">
+              <img 
                   src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-svg-vector.svg"
-                  hspace="1%"
-                  width="10%"></a>
+                  alt = "LinkedIn"></a>
             <a href="https://www.researchgate.net/profile/Marie_Chion?cp=shp">
               <img
                   src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg"
-                  hspace="1%"
-                  width="10%"></a>
-            <a href="https://bsky.app/profile/mariechion.bsky.social"><img 
+                  alt = "ResearchGate"></a>
+            <a href="https://bsky.app/profile/mariechion.bsky.social">
+              <img 
                   src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg"
-                  hspace="1%"
-                  width="10%"></a></p>
+                  alt = "BlueSky"></a></p>
       </nav>
     </div>
 
@@ -126,7 +63,7 @@
       <a href="./thebigc.html">THE BIG C</a>
     </div> 
 
-    <div style="width:90%; text-align: justify;">
+    <div>
     <h1>GRANTS</h1>
     <p>Unless specified, I am the principal investigator of the grants hereafter 
     listed.</p>

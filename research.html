@@ -7,136 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Style+Script|Source+Sans+3" 
     rel="stylesheet">
-
-    <style>
-      h1 {color: #005c99; font-family: "Source Sans 3"; 
-      font-size: clamp(4px,calc(0.7vw + 0.9vh),16px)}
-      h2 {color: #005c99; font-family: "Source Sans 3"; 
-      font-size: clamp(4px,calc(0.7vw + 0.8vh),15px)}
-      h3 {color: #000000; font-family: "Source Sans 3"; 
-      font-size: clamp(4px,calc(0.7vw + 0.7vh),14px)}
-      
-      p, ul, dl {line-height: 150%; font-family: "Source Sans 3"; 
-        font-size: clamp(2px, calc(0.5vw + 1vh), 14px);
-      }
-      a {color: #003d66; text-decoration: none; 
-      font-size: clamp(2px, calc(0.5vw + 1vh), 14px);}
-      
-  
-      #sidebar {
-        width: 18vw;
-        position: fixed;
-        padding-top: 5vh;
-        left: 0;
-        z-index: 999;
-        background:#fff2e3; 
-        color: #000000;
-        transition: all 0.3s;
-        height: 100%;
-        overflow-y: auto;
-        overflow-x: auto;
-      }
-      
-      .topnav {
-      background-color: white;
-      overflow: hidden;
-      font-family: "Source Sans 3";
-      }
-
-      /* Style the links inside the navigation bar */
-      .topnav a {
-      float: left;
-      color: #005c99;
-      text-align: center;
-      padding: 1.25vh 1.25vw;
-      text-decoration: none;
-      font-size: clamp(4px,calc(0.7vw + 0.7vh),16px);
-      }
-
-      /* Change the color of links on hover */
-      .topnav a:hover {
-      background-color: #fff2e3;
-      color: black;
-      }
-
-      /* Add a color to the active/current link */
-      .topnav a.active {
-      background-color: #005c99;
-      color: white;
-      }
-      
-      .subtopnav {
-      background-color: white;
-      overflow: hidden;
-      }
-
-      /* Style the links inside the navigation bar */
-      .subtopnav a {
-      float: right;
-      color: #005c99;
-      text-align: center;
-      padding: 0.5vh 1.2vw;
-      text-decoration: none;
-      font-size: clamp(4px,calc(0.7vw + 0.7vh),16px);
-      font-family: "Source Sans 3";
-      border-right: 0.1vh solid darkblue;
-      }
-
-      /* Change the color of links on hover */
-      .subtopnav a:hover {
-      color: darkblue;
-      }
-      
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   
-  <body style="margin-left:21vw; margin-right: 5vw;">
+  <body>
     <div> <!-- Sidebar -->
       <nav id="sidebar">
-          <img src="pictures/ChionMarie.jpeg" 
-          style="display: block;
-          margin-left: auto;
-          margin-right: auto; 
-          width: 55%;">
-          <p align="center" style="color: #005c99; 
-          font-family: Style Script;
-          font-size: clamp(3px, calc(1vw + 2vh), 28px);">
-            Marie Chion</p>
-          <p align="center" style = "font-size: clamp(2px, calc(0.5vw + 1vh), 14px);">
+          <img 
+          src="pictures/ChionMarie.jpeg"
+          alt= "Marie Chion">
+          <p class="name">
+            Marie Chion
+          </p>
+          <p>
             Research Associate<br>
             <i>MRC Biostatistics Unit</i>
           </p>
-          <p align="center" style = "font-size: clamp(2px, calc(0.5vw + 1vh), 14px);">
-            Postdoctoral<br>Research Associate <br>
+          <p>
+            Postdoctoral Research Associate<br>
             <i>Trinity Hall College</i>
           </p>
-          <p align="center" style = "font-size: clamp(2px, calc(0.5vw + 1vh), 14px);">
-            &#128205;University of Cambridge
+          <p>
+            &#128205; University of Cambridge, UK
           </p>
-          <p align="center"
-          style="font-size: clamp(2px,calc(0.5vw + 0.75vh,12px));">mc2411[at]cam.ac.uk</p>
-          <p style="line-height: 400%" align="center">
-            <a href="https://github.com/mariechion"><img 
+          <p class = "email">
+            mc2411[at]cam.ac.uk</p>
+          <p class = "social-icons">
+            <a href="https://github.com/mariechion">
+              <img 
                   src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                  hspace="1%"
-                  width="10%"></a>
-            <a href="https://www.linkedin.com/in/marie-chion/"><img 
+                  alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/marie-chion/">
+              <img 
                   src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-svg-vector.svg"
-                  hspace="1%"
-                  width="10%"></a>
+                  alt = "LinkedIn"></a>
             <a href="https://www.researchgate.net/profile/Marie_Chion?cp=shp">
               <img
                   src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg"
-                  hspace="1%"
-                  width="10%"></a>
-            <a href="https://bsky.app/profile/mariechion.bsky.social"><img 
+                  alt = "ResearchGate"></a>
+            <a href="https://bsky.app/profile/mariechion.bsky.social">
+              <img 
                   src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg"
-                  hspace="1%"
-                  width="10%"></a></p>
+                  alt = "BlueSky"></a></p>
       </nav>
     </div>
 
-     <div class="topnav" style="width:80%;">
+     <div class="topnav">
       <a href="./index.html">HOME</a>
       <!-- <a href="./news.html">NEWS</a> -->
       <a class="active" href="./research.html">RESEARCH</a>
@@ -146,14 +62,14 @@
       <a href="./thebigc.html">THE BIG C</a>
     </div> 
     
-    <div class="subtopnav" style="width:75%;">
+    <div class="subtopnav">
       <a href="#poster">Posters</a>
       <a href="#talks">Talks</a>
       <a href="#software">Software</a>
       <a href="#publi">Publications</a>
     </div> 
 
-    <div style="width:95%;">
+    <div style="width:95%; max-width: 900px;">
       
       <h1 id="publi">	&#128196; PUBLICATIONS</h1>
       <h2>Preprint</h2>
@@ -297,6 +213,8 @@
       <div>
         <dl>
           <dt><b>2025</b></dt>
+              <dd>BSU Together - <i>Cambridge, UK</i></dd>
+              <dd>BSU Precision Medicine Theme Meeting - <i>Cambridge, UK</i></dd>
               <dd>INTEGRATE Seminar - <i>Dublin, IE</i></dd>
           <dt><b>2024</b></dt>
               <dd>Séminaire Statistique &amp; Génome - <i>Evry, FR</i></dd>
