@@ -30,7 +30,7 @@ h3 {
     font-size: clamp(4px,calc(0.7vw + 0.7vh),16px);
 } 
 
-p, ul {
+p, ul, dl {
     line-height: 150%; 
     font-family: "Source Sans 3"; 
     font-size: clamp(2px, calc(0.5vw + 1vh), 16px);
