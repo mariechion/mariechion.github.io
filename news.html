@@ -3,130 +3,131 @@
 <html lang="en">
   
    <head>
-    <title>Marie Chion - Home</title>
+    <title>Marie Chion - News</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Style+Script|Source+Sans+3" 
     rel="stylesheet">
-
-    <style>
-      h1 {color: #005c99; font-family: "Source Sans 3"; 
-      font-size: clamp(4px,calc(0.7vw + 0.9vh),16px)}
-      h2 {color: #005c99; font-family: "Source Sans 3"; 
-      font-size: clamp(4px,calc(0.7vw + 0.8vh),15px)}
-      h3 {color: #000000; font-family: "Source Sans 3"; 
-      font-size: clamp(4px,calc(0.7vw + 0.7vh),14px)}
-      
-      p, ul {line-height: 150%; font-family: "Source Sans 3"; 
-        font-size: clamp(2px, calc(0.5vw + 1vh), 14px);
-      }
-      a {color: #003d66; text-decoration: none; 
-      font-size: clamp(2px, calc(0.5vw + 1vh), 14px);}
-     
-      #sidebar {
-        width: 18vw;
-        position: fixed;
-        padding-top: 5vh;
-        left: 0;
-        z-index: 999;
-        background:#fff2e3; 
-        color: #000000;
-        transition: all 0.3s;
-        height: 100%;
-        overflow-y: auto;
-        overflow-x: auto;
-      }
-      
-      .topnav {
-      background-color: white;
-      overflow: hidden;
-      font-family: "Source Sans 3";
-      }
-
-      /* Style the links inside the navigation bar */
-      .topnav a {
-      float: left;
-      color: #005c99;
-      text-align: center;
-      padding: 1.25vh 1.25vw;
-      text-decoration: none;
-      font-size: clamp(4px,calc(0.7vw + 0.7vh),16px);
-      }
-
-      /* Change the color of links on hover */
-      .topnav a:hover {
-      background-color: #fff2e3;
-      color: black;
-      }
-
-      /* Add a color to the active/current link */
-      .topnav a.active {
-      background-color: #005c99;
-      color: white;
-      }
-    
-      
-      
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
 
-  <body style="margin-left:21vw; margin-right: 5vw;">
+  <body>
     <div> <!-- Sidebar -->
       <nav id="sidebar">
-          <img src="pictures/ChionMarie.jpeg" 
-          style="display: block;
-          margin-left: auto;
-          margin-right: auto; 
-          width: 55%;">
-          <p align="center" style="color: #005c99; 
-          font-family: Style Script;
-          font-size: clamp(3px, calc(1vw + 2vh), 28px);">
-            Marie Chion</p>
-          <p align="center" style = "font-size: clamp(2px, calc(0.5vw + 1vh), 14px);">
+          <img 
+          src="pictures/ChionMarie.jpeg"
+          alt= "Marie Chion">
+          <p class="name">
+            Marie Chion
+          </p>
+          <p>
             Research Associate<br>
             <i>MRC Biostatistics Unit</i>
           </p>
-          <p align="center" style = "font-size: clamp(2px, calc(0.5vw + 1vh), 14px);">
-            Postdoctoral<br>Research Associate<br>
+          <p>
+            Postdoctoral Research Associate<br>
             <i>Trinity Hall College</i>
           </p>
-          <p align="center" style = "font-size: clamp(2px, calc(0.5vw + 1vh), 14px);">
-            &#128205;University of Cambridge
+          <p>
+            &#128205; University of Cambridge, UK
           </p>
-          <p align="center"
-          style="font-size: clamp(2px,calc(0.5vw + 0.75vh,12px));">mc2411[at]cam.ac.uk</p>
-          <p style="line-height: 400%" align="center">
-            <a href="https://github.com/mariechion"><img 
+          <p class = "email">
+            mc2411[at]cam.ac.uk</p>
+          <p class = "social-icons">
+            <a href="https://github.com/mariechion">
+              <img 
                   src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                  hspace="1%"
-                  width="10%"></a>
-            <a href="https://www.linkedin.com/in/marie-chion/"><img 
+                  alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/marie-chion/">
+              <img 
                   src="https://cdn.freebiesupply.com/logos/large/2x/linkedin-icon-logo-svg-vector.svg"
-                  hspace="1%"
-                  width="10%"></a>
+                  alt = "LinkedIn"></a>
             <a href="https://www.researchgate.net/profile/Marie_Chion?cp=shp">
               <img
                   src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg"
-                  hspace="1%"
-                  width="10%"></a>
-            <a href="https://bsky.app/profile/mariechion.bsky.social"><img 
+                  alt = "ResearchGate"></a>
+            <a href="https://bsky.app/profile/mariechion.bsky.social">
+              <img 
                   src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg"
-                  hspace="1%"
-                  width="10%"></a></p>
+                  alt = "BlueSky"></a></p>
       </nav>
     </div>
 
      <div class="topnav" style="width:80%;">
       <a href="./index.html">HOME</a>
       <a class="active" href="./news.html">NEWS</a>
-      <a href="./publications.html">RESEARCH</a>
-      <a href="./teaching.html">STUDENTS</a>
+      <a href="./research.html">RESEARCH</a>
+      <a href="./students.html">STUDENTS</a>
       <a href="./involvement.html">INVOLVEMENT</a>
       <a href="./thebigc.html">THE BIG C</a>
     </div> 
 
     <div style="width:75%; text-align: justify;">
-    
+    <h1>Upcoming events</h1>
+    <dd>
+          <dt><b>04 March 2026:</b> Upcoming invited talk at the 
+            <a href="https://www.safehr-data.org/events">UCLH x UCL SAFEHR</a> 
+            Monthly Meeting in London, UK.</dt>
+          <dt><b>29-30 January 2026:</b> Upcoming invited talk at 
+            <a href="https://smpgd2026.sciencesconf.org/">SMPGD 2026</a> Conference 
+            in Grenoble, France.</dt>
+          <dt><b>21-22 January 2026:</b> I will be attending the 
+            NHS Blood and Transplant Clinical R&D Conference 2026 in Birmingham, UK.
+            I will be presenting a poster on "Effect of donation, donor ad recipient 
+            characteristics on haemoglobin and ferritin changes in regularly transfused 
+            beta thalassaemia and myelodysplasia patients".
+          </dt>
+    </dd>
+    <h1>Past news</h1>
+    <dd>
+      <dt>
+        <b>14-15 September 2025:</b> I gave an introductory lecture during the SFdS Workshop
+        entitled "GPS, sensors, real-time tracking: analysing functional data in sport".
+        More info can be found on the 
+        <a href = "https://www.sfds.asso.fr/ddoc-14228-d657bfd2e7987a3d029b0ca62c644248-2025_10_14_15_ateliersfds_plaquette.pdf">
+        course brochure </a> (in French). Practical material can be found on 
+        <a href = "https://github.com/ArthurLeroy/Stat_Sport_SFdS/tree/main/Ateliers%20Statistiques%20-%202025">
+        GitHub</a>.
+      </dt>
+
+      <dt>
+        <b>30 July 2025:</b> Earlier this month, a new YPIC board was elected for 2025-2027! 
+        As my mandate as Vice-President came to an end, I want to thank all my fellow teammates
+        for their dedication and hard work over the past two years. 
+        It has been a pleasure to work with you all and I am very proud of what we achieved together!
+        I am also very excited to welcome the new board members and look forward to seeing
+        all the great initiatives they will bring to the proteomics ECR community.
+        More info can be found on the <a href="https://eupa.org/ypic/">YPIC webpage</a>.
+      </dt>
+
+      <dt>
+        <b>16-20 June 2025:</b> I attended the <a href="https://eupa2025-stmalo.fr/">
+        EuPA 2025 Conference </a> in Saint-Malo, France. 
+        As part of YPIC, I organised several events dedicated to early career researchers.
+        As chair of the EuPA Awards Committee, I organised the EuPA Awards Ceremony.
+        I also chaired several sessions and had fantastic scientific discussions! 
+        See my <a href="https://www.linkedin.com/posts/marie-chion_eupa2025-activity-7346534925631733760-7MSM">
+        LinkedIn post</a> for more info et pictures.
+      </dt>
+
+      <dt>
+        <b>27 May 2025:</b> I presented my work on "ProteoBayes: a Bayesian framework for Multivariate Differential 
+        Analysis in Proteomics" during the INTEGRATE seminar at University College Dublin, Ireland. 
+        Many thanks to <a href="https://people.ucd.ie/claire.gormley">Claire Gormley</a> and
+        <a href="https://people.ucd.ie/brendan.murphy">Brendan Murphy</a> for having me!
+      </dt>
+
+      <dt>
+        <b>11 March 2025:</b> I presented my work on "ProteoBayes: a Bayesian framework for Multivariate Differential 
+        Analysis in Proteomics" during the <a href="https://statomique.github.io/posts/2025-02-25-pyPLN-integration/index.html"> 
+        StatOmique workshop</a> at AgroParisTech in Palaiseau, France. 
+        Many thanks to <a href="https://www6.inrae.fr/mia-paris/Equipes/Membres/Julie-Aubert/">Julie Aubert</a> and 
+        <a href="https://cv.archives-ouvertes.fr/christelle-hennequet-antier">Christelle Hennequet-Antier</a> 
+        for organising this great event!
+      </dt>
+
+
+    </dd>
     </div>
 
   </body>
